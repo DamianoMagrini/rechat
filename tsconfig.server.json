@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.json",
+	"include": ["src/server/**/*.ts"],
+	"compilerOptions": {
+		"outDir": "lib",
+		"module": "CommonJS",
+		"noEmit": false,
+		"target": "ES2021"
+	}
+}
